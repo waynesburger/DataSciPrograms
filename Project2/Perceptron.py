@@ -15,7 +15,7 @@ print("it worked")
 ------------- Obtain training data --------------------------------------------
 """
 
-train_data = pand.read_csv('G:\\CS457\\Wayne_Project_2\\trainSineFunction.csv')
+train_data = pand.read_csv('trainSineFunction.csv')
 train_data.head()
 train_data.shape
 
@@ -35,7 +35,7 @@ btY
 """
 ----------------- Obtain testing data -----------------------------------------
 """
-test_data = pand.read_csv('G:\\CS457\\Wayne_Project_2\\testSineFunction.csv')
+test_data = pand.read_csv('testSineFunction.csv')
 test_data.head()
 test_data.shape
 
